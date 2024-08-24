@@ -1,0 +1,10 @@
+set(SRC_LIST 
+    application.cpp 
+    head.pb.cc 
+    provider.cpp 
+    rpcChannel.cpp 
+    rpcConfig.cpp 
+    rpccontroller.cpp 
+    )
+add_library(rpc ${SRC_LIST})
+target_link_libraries(rpc network)

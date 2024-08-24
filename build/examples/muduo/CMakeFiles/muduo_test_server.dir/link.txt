@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -std=c++11 -g -rdynamic CMakeFiles/muduo_test_server.dir/TestServer.o -o ../../../bin/muduo_test_server   -L/home/mywork/wxz_rpc/lib  -Wl,-rpath,/home/mywork/wxz_rpc/lib ../../../lib/libnetwork.a -lpthread 
