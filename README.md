@@ -7,12 +7,18 @@
 
     硬性要求：linux环境，C++编译器支持C++11标准。
 
+    直接 ./autobuild.sh
+
+    或者
+
     编译&&安装：
         git clone git@github.com:hyacinthus12138/MpRPC_Cpp.git
         cd MpRPC_Cpp
         cd build
         cmake ..
         make 
+
+    
 ## lib目录会有两个文件
       libnetwork.a 这是tinymuduo库文件
       librpc.a     这是rpc库文件
