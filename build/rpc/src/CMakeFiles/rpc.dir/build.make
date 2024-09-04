@@ -167,6 +167,20 @@ rpc/src/CMakeFiles/rpc.dir/zookeeperutil.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpc.dir/zookeeperutil.s"
 	cd /home/mywork/MpRPC_Cpp/build/rpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/rpc/src/zookeeperutil.cpp -o CMakeFiles/rpc.dir/zookeeperutil.s
 
+rpc/src/CMakeFiles/rpc.dir/logger.o: rpc/src/CMakeFiles/rpc.dir/flags.make
+rpc/src/CMakeFiles/rpc.dir/logger.o: ../rpc/src/logger.cpp
+rpc/src/CMakeFiles/rpc.dir/logger.o: rpc/src/CMakeFiles/rpc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object rpc/src/CMakeFiles/rpc.dir/logger.o"
+	cd /home/mywork/MpRPC_Cpp/build/rpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT rpc/src/CMakeFiles/rpc.dir/logger.o -MF CMakeFiles/rpc.dir/logger.o.d -o CMakeFiles/rpc.dir/logger.o -c /home/mywork/MpRPC_Cpp/rpc/src/logger.cpp
+
+rpc/src/CMakeFiles/rpc.dir/logger.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpc.dir/logger.i"
+	cd /home/mywork/MpRPC_Cpp/build/rpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/rpc/src/logger.cpp > CMakeFiles/rpc.dir/logger.i
+
+rpc/src/CMakeFiles/rpc.dir/logger.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpc.dir/logger.s"
+	cd /home/mywork/MpRPC_Cpp/build/rpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/rpc/src/logger.cpp -o CMakeFiles/rpc.dir/logger.s
+
 # Object files for target rpc
 rpc_OBJECTS = \
 "CMakeFiles/rpc.dir/application.o" \
@@ -175,7 +189,8 @@ rpc_OBJECTS = \
 "CMakeFiles/rpc.dir/rpcChannel.o" \
 "CMakeFiles/rpc.dir/rpcConfig.o" \
 "CMakeFiles/rpc.dir/rpccontroller.o" \
-"CMakeFiles/rpc.dir/zookeeperutil.o"
+"CMakeFiles/rpc.dir/zookeeperutil.o" \
+"CMakeFiles/rpc.dir/logger.o"
 
 # External object files for target rpc
 rpc_EXTERNAL_OBJECTS =
@@ -187,9 +202,10 @@ rpc_EXTERNAL_OBJECTS =
 ../lib/librpc.a: rpc/src/CMakeFiles/rpc.dir/rpcConfig.o
 ../lib/librpc.a: rpc/src/CMakeFiles/rpc.dir/rpccontroller.o
 ../lib/librpc.a: rpc/src/CMakeFiles/rpc.dir/zookeeperutil.o
+../lib/librpc.a: rpc/src/CMakeFiles/rpc.dir/logger.o
 ../lib/librpc.a: rpc/src/CMakeFiles/rpc.dir/build.make
 ../lib/librpc.a: rpc/src/CMakeFiles/rpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library ../../../lib/librpc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library ../../../lib/librpc.a"
 	cd /home/mywork/MpRPC_Cpp/build/rpc/src && $(CMAKE_COMMAND) -P CMakeFiles/rpc.dir/cmake_clean_target.cmake
 	cd /home/mywork/MpRPC_Cpp/build/rpc/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rpc.dir/link.txt --verbose=$(VERBOSE)
 

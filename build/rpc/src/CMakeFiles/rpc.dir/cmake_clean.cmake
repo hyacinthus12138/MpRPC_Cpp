@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/rpc.dir/application.o.d"
   "CMakeFiles/rpc.dir/head.pb.o"
   "CMakeFiles/rpc.dir/head.pb.o.d"
+  "CMakeFiles/rpc.dir/logger.o"
+  "CMakeFiles/rpc.dir/logger.o.d"
   "CMakeFiles/rpc.dir/provider.o"
   "CMakeFiles/rpc.dir/provider.o.d"
   "CMakeFiles/rpc.dir/rpcChannel.o"

@@ -161,6 +161,21 @@ head.pb.s:
 .PHONY : head.pb.s
 
 # target to build an object file
+logger.o:
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/logger.o
+.PHONY : logger.o
+
+# target to preprocess a source file
+logger.i:
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/logger.i
+.PHONY : logger.i
+
+# target to generate assembly for a file
+logger.s:
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/logger.s
+.PHONY : logger.s
+
+# target to build an object file
 provider.o:
 	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/provider.o
 .PHONY : provider.o
@@ -250,6 +265,9 @@ help:
 	@echo "... head.pb.o"
 	@echo "... head.pb.i"
 	@echo "... head.pb.s"
+	@echo "... logger.o"
+	@echo "... logger.i"
+	@echo "... logger.s"
 	@echo "... provider.o"
 	@echo "... provider.i"
 	@echo "... provider.s"

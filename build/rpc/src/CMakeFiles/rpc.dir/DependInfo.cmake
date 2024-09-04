@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/mywork/MpRPC_Cpp/rpc/src/application.cpp" "rpc/src/CMakeFiles/rpc.dir/application.o" "gcc" "rpc/src/CMakeFiles/rpc.dir/application.o.d"
   "/home/mywork/MpRPC_Cpp/rpc/src/head.pb.cc" "rpc/src/CMakeFiles/rpc.dir/head.pb.o" "gcc" "rpc/src/CMakeFiles/rpc.dir/head.pb.o.d"
+  "/home/mywork/MpRPC_Cpp/rpc/src/logger.cpp" "rpc/src/CMakeFiles/rpc.dir/logger.o" "gcc" "rpc/src/CMakeFiles/rpc.dir/logger.o.d"
   "/home/mywork/MpRPC_Cpp/rpc/src/provider.cpp" "rpc/src/CMakeFiles/rpc.dir/provider.o" "gcc" "rpc/src/CMakeFiles/rpc.dir/provider.o.d"
   "/home/mywork/MpRPC_Cpp/rpc/src/rpcChannel.cpp" "rpc/src/CMakeFiles/rpc.dir/rpcChannel.o" "gcc" "rpc/src/CMakeFiles/rpc.dir/rpcChannel.o.d"
   "/home/mywork/MpRPC_Cpp/rpc/src/rpcConfig.cpp" "rpc/src/CMakeFiles/rpc.dir/rpcConfig.o" "gcc" "rpc/src/CMakeFiles/rpc.dir/rpcConfig.o.d"
