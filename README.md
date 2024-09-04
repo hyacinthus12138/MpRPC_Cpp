@@ -55,4 +55,3 @@
                   args_size:    3
                   ============================================
                   callee local FriendService GetFriendList service:1000
-## rpc各文件简介

@@ -1,6 +1,6 @@
 net/src/CMakeFiles/network.dir/Buffer.o: \
- /home/mywork/wxz_rpc/net/src/Buffer.cpp /usr/include/stdc-predef.h \
- /home/mywork/wxz_rpc/net/include/Buffer.h /usr/include/c++/11/vector \
+ /home/mywork/MpRPC_Cpp/net/src/Buffer.cpp /usr/include/stdc-predef.h \
+ /home/mywork/MpRPC_Cpp/net/include/Buffer.h /usr/include/c++/11/vector \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

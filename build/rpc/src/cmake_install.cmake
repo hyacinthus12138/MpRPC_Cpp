@@ -1,4 +1,4 @@
-# Install script for directory: /home/mywork/wxz_rpc/rpc/src
+# Install script for directory: /home/mywork/MpRPC_Cpp/rpc/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

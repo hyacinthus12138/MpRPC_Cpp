@@ -5,6 +5,8 @@ set(SRC_LIST
     rpcChannel.cpp 
     rpcConfig.cpp 
     rpccontroller.cpp 
+    zookeeperutil.cpp
     )
 add_library(rpc ${SRC_LIST})
-target_link_libraries(rpc network)
+target_link_libraries(rpc network )
+target_link_libraries(rpc network zookeeper_mt)

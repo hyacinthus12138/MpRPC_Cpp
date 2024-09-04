@@ -1,7 +1,7 @@
 net/src/CMakeFiles/network.dir/Thread.o: \
- /home/mywork/wxz_rpc/net/src/Thread.cpp /usr/include/stdc-predef.h \
- /home/mywork/wxz_rpc/net/include/Thread.h \
- /home/mywork/wxz_rpc/net/include/noncopyable.h \
+ /home/mywork/MpRPC_Cpp/net/src/Thread.cpp /usr/include/stdc-predef.h \
+ /home/mywork/MpRPC_Cpp/net/include/Thread.h \
+ /home/mywork/MpRPC_Cpp/net/include/noncopyable.h \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -157,7 +157,7 @@ net/src/CMakeFiles/network.dir/Thread.o: \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h /usr/include/c++/11/functional \
  /usr/include/c++/11/bits/std_function.h \
- /home/mywork/wxz_rpc/net/include/CurrentThread.h \
+ /home/mywork/MpRPC_Cpp/net/include/CurrentThread.h \
  /usr/include/x86_64-linux-gnu/sys/syscall.h \
  /usr/include/x86_64-linux-gnu/asm/unistd.h \
  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \

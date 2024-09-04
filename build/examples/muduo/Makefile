@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mywork/wxz_rpc
+CMAKE_SOURCE_DIR = /home/mywork/MpRPC_Cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mywork/wxz_rpc/build
+CMAKE_BINARY_DIR = /home/mywork/MpRPC_Cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mywork/wxz_rpc/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mywork/wxz_rpc/build/CMakeFiles /home/mywork/wxz_rpc/build/examples/muduo//CMakeFiles/progress.marks
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/muduo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mywork/wxz_rpc/build/CMakeFiles 0
+	cd /home/mywork/MpRPC_Cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mywork/MpRPC_Cpp/build/CMakeFiles /home/mywork/MpRPC_Cpp/build/examples/muduo//CMakeFiles/progress.marks
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/muduo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mywork/MpRPC_Cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/muduo/clean
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/muduo/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/muduo/preinstall
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/muduo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/muduo/preinstall
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/muduo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mywork/wxz_rpc/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mywork/MpRPC_Cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/muduo/CMakeFiles/muduo_test_server.dir/rule:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/muduo/CMakeFiles/muduo_test_server.dir/rule
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/muduo/CMakeFiles/muduo_test_server.dir/rule
 .PHONY : examples/muduo/CMakeFiles/muduo_test_server.dir/rule
 
 # Convenience name for target.
@@ -127,22 +127,22 @@ muduo_test_server: examples/muduo/CMakeFiles/muduo_test_server.dir/rule
 
 # fast build rule for target.
 muduo_test_server/fast:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f examples/muduo/CMakeFiles/muduo_test_server.dir/build.make examples/muduo/CMakeFiles/muduo_test_server.dir/build
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/muduo/CMakeFiles/muduo_test_server.dir/build.make examples/muduo/CMakeFiles/muduo_test_server.dir/build
 .PHONY : muduo_test_server/fast
 
 # target to build an object file
 TestServer.o:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f examples/muduo/CMakeFiles/muduo_test_server.dir/build.make examples/muduo/CMakeFiles/muduo_test_server.dir/TestServer.o
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/muduo/CMakeFiles/muduo_test_server.dir/build.make examples/muduo/CMakeFiles/muduo_test_server.dir/TestServer.o
 .PHONY : TestServer.o
 
 # target to preprocess a source file
 TestServer.i:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f examples/muduo/CMakeFiles/muduo_test_server.dir/build.make examples/muduo/CMakeFiles/muduo_test_server.dir/TestServer.i
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/muduo/CMakeFiles/muduo_test_server.dir/build.make examples/muduo/CMakeFiles/muduo_test_server.dir/TestServer.i
 .PHONY : TestServer.i
 
 # target to generate assembly for a file
 TestServer.s:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f examples/muduo/CMakeFiles/muduo_test_server.dir/build.make examples/muduo/CMakeFiles/muduo_test_server.dir/TestServer.s
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/muduo/CMakeFiles/muduo_test_server.dir/build.make examples/muduo/CMakeFiles/muduo_test_server.dir/TestServer.s
 .PHONY : TestServer.s
 
 # Help Target
@@ -168,6 +168,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mywork/wxz_rpc/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mywork/MpRPC_Cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

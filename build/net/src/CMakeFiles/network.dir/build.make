@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mywork/wxz_rpc
+CMAKE_SOURCE_DIR = /home/mywork/MpRPC_Cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mywork/wxz_rpc/build
+CMAKE_BINARY_DIR = /home/mywork/MpRPC_Cpp/build
 
 # Include any dependencies generated for this target.
 include net/src/CMakeFiles/network.dir/depend.make
@@ -72,254 +72,254 @@ include net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/Acceptor.o: net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/Acceptor.o: ../net/src/Acceptor.cpp
 net/src/CMakeFiles/network.dir/Acceptor.o: net/src/CMakeFiles/network.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object net/src/CMakeFiles/network.dir/Acceptor.o"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/Acceptor.o -MF CMakeFiles/network.dir/Acceptor.o.d -o CMakeFiles/network.dir/Acceptor.o -c /home/mywork/wxz_rpc/net/src/Acceptor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object net/src/CMakeFiles/network.dir/Acceptor.o"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/Acceptor.o -MF CMakeFiles/network.dir/Acceptor.o.d -o CMakeFiles/network.dir/Acceptor.o -c /home/mywork/MpRPC_Cpp/net/src/Acceptor.cpp
 
 net/src/CMakeFiles/network.dir/Acceptor.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/Acceptor.i"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/wxz_rpc/net/src/Acceptor.cpp > CMakeFiles/network.dir/Acceptor.i
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/net/src/Acceptor.cpp > CMakeFiles/network.dir/Acceptor.i
 
 net/src/CMakeFiles/network.dir/Acceptor.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/Acceptor.s"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/wxz_rpc/net/src/Acceptor.cpp -o CMakeFiles/network.dir/Acceptor.s
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/net/src/Acceptor.cpp -o CMakeFiles/network.dir/Acceptor.s
 
 net/src/CMakeFiles/network.dir/Buffer.o: net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/Buffer.o: ../net/src/Buffer.cpp
 net/src/CMakeFiles/network.dir/Buffer.o: net/src/CMakeFiles/network.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object net/src/CMakeFiles/network.dir/Buffer.o"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/Buffer.o -MF CMakeFiles/network.dir/Buffer.o.d -o CMakeFiles/network.dir/Buffer.o -c /home/mywork/wxz_rpc/net/src/Buffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object net/src/CMakeFiles/network.dir/Buffer.o"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/Buffer.o -MF CMakeFiles/network.dir/Buffer.o.d -o CMakeFiles/network.dir/Buffer.o -c /home/mywork/MpRPC_Cpp/net/src/Buffer.cpp
 
 net/src/CMakeFiles/network.dir/Buffer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/Buffer.i"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/wxz_rpc/net/src/Buffer.cpp > CMakeFiles/network.dir/Buffer.i
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/net/src/Buffer.cpp > CMakeFiles/network.dir/Buffer.i
 
 net/src/CMakeFiles/network.dir/Buffer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/Buffer.s"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/wxz_rpc/net/src/Buffer.cpp -o CMakeFiles/network.dir/Buffer.s
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/net/src/Buffer.cpp -o CMakeFiles/network.dir/Buffer.s
 
 net/src/CMakeFiles/network.dir/Channel.o: net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/Channel.o: ../net/src/Channel.cpp
 net/src/CMakeFiles/network.dir/Channel.o: net/src/CMakeFiles/network.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object net/src/CMakeFiles/network.dir/Channel.o"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/Channel.o -MF CMakeFiles/network.dir/Channel.o.d -o CMakeFiles/network.dir/Channel.o -c /home/mywork/wxz_rpc/net/src/Channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object net/src/CMakeFiles/network.dir/Channel.o"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/Channel.o -MF CMakeFiles/network.dir/Channel.o.d -o CMakeFiles/network.dir/Channel.o -c /home/mywork/MpRPC_Cpp/net/src/Channel.cpp
 
 net/src/CMakeFiles/network.dir/Channel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/Channel.i"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/wxz_rpc/net/src/Channel.cpp > CMakeFiles/network.dir/Channel.i
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/net/src/Channel.cpp > CMakeFiles/network.dir/Channel.i
 
 net/src/CMakeFiles/network.dir/Channel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/Channel.s"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/wxz_rpc/net/src/Channel.cpp -o CMakeFiles/network.dir/Channel.s
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/net/src/Channel.cpp -o CMakeFiles/network.dir/Channel.s
 
 net/src/CMakeFiles/network.dir/CurrentThread.o: net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/CurrentThread.o: ../net/src/CurrentThread.cpp
 net/src/CMakeFiles/network.dir/CurrentThread.o: net/src/CMakeFiles/network.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object net/src/CMakeFiles/network.dir/CurrentThread.o"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/CurrentThread.o -MF CMakeFiles/network.dir/CurrentThread.o.d -o CMakeFiles/network.dir/CurrentThread.o -c /home/mywork/wxz_rpc/net/src/CurrentThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object net/src/CMakeFiles/network.dir/CurrentThread.o"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/CurrentThread.o -MF CMakeFiles/network.dir/CurrentThread.o.d -o CMakeFiles/network.dir/CurrentThread.o -c /home/mywork/MpRPC_Cpp/net/src/CurrentThread.cpp
 
 net/src/CMakeFiles/network.dir/CurrentThread.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/CurrentThread.i"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/wxz_rpc/net/src/CurrentThread.cpp > CMakeFiles/network.dir/CurrentThread.i
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/net/src/CurrentThread.cpp > CMakeFiles/network.dir/CurrentThread.i
 
 net/src/CMakeFiles/network.dir/CurrentThread.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/CurrentThread.s"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/wxz_rpc/net/src/CurrentThread.cpp -o CMakeFiles/network.dir/CurrentThread.s
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/net/src/CurrentThread.cpp -o CMakeFiles/network.dir/CurrentThread.s
 
 net/src/CMakeFiles/network.dir/DefaultPoller.o: net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/DefaultPoller.o: ../net/src/DefaultPoller.cpp
 net/src/CMakeFiles/network.dir/DefaultPoller.o: net/src/CMakeFiles/network.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object net/src/CMakeFiles/network.dir/DefaultPoller.o"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/DefaultPoller.o -MF CMakeFiles/network.dir/DefaultPoller.o.d -o CMakeFiles/network.dir/DefaultPoller.o -c /home/mywork/wxz_rpc/net/src/DefaultPoller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object net/src/CMakeFiles/network.dir/DefaultPoller.o"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/DefaultPoller.o -MF CMakeFiles/network.dir/DefaultPoller.o.d -o CMakeFiles/network.dir/DefaultPoller.o -c /home/mywork/MpRPC_Cpp/net/src/DefaultPoller.cpp
 
 net/src/CMakeFiles/network.dir/DefaultPoller.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/DefaultPoller.i"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/wxz_rpc/net/src/DefaultPoller.cpp > CMakeFiles/network.dir/DefaultPoller.i
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/net/src/DefaultPoller.cpp > CMakeFiles/network.dir/DefaultPoller.i
 
 net/src/CMakeFiles/network.dir/DefaultPoller.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/DefaultPoller.s"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/wxz_rpc/net/src/DefaultPoller.cpp -o CMakeFiles/network.dir/DefaultPoller.s
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/net/src/DefaultPoller.cpp -o CMakeFiles/network.dir/DefaultPoller.s
 
 net/src/CMakeFiles/network.dir/EPollPoller.o: net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/EPollPoller.o: ../net/src/EPollPoller.cpp
 net/src/CMakeFiles/network.dir/EPollPoller.o: net/src/CMakeFiles/network.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object net/src/CMakeFiles/network.dir/EPollPoller.o"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/EPollPoller.o -MF CMakeFiles/network.dir/EPollPoller.o.d -o CMakeFiles/network.dir/EPollPoller.o -c /home/mywork/wxz_rpc/net/src/EPollPoller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object net/src/CMakeFiles/network.dir/EPollPoller.o"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/EPollPoller.o -MF CMakeFiles/network.dir/EPollPoller.o.d -o CMakeFiles/network.dir/EPollPoller.o -c /home/mywork/MpRPC_Cpp/net/src/EPollPoller.cpp
 
 net/src/CMakeFiles/network.dir/EPollPoller.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/EPollPoller.i"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/wxz_rpc/net/src/EPollPoller.cpp > CMakeFiles/network.dir/EPollPoller.i
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/net/src/EPollPoller.cpp > CMakeFiles/network.dir/EPollPoller.i
 
 net/src/CMakeFiles/network.dir/EPollPoller.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/EPollPoller.s"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/wxz_rpc/net/src/EPollPoller.cpp -o CMakeFiles/network.dir/EPollPoller.s
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/net/src/EPollPoller.cpp -o CMakeFiles/network.dir/EPollPoller.s
 
 net/src/CMakeFiles/network.dir/EventLoop.o: net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/EventLoop.o: ../net/src/EventLoop.cpp
 net/src/CMakeFiles/network.dir/EventLoop.o: net/src/CMakeFiles/network.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object net/src/CMakeFiles/network.dir/EventLoop.o"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/EventLoop.o -MF CMakeFiles/network.dir/EventLoop.o.d -o CMakeFiles/network.dir/EventLoop.o -c /home/mywork/wxz_rpc/net/src/EventLoop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object net/src/CMakeFiles/network.dir/EventLoop.o"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/EventLoop.o -MF CMakeFiles/network.dir/EventLoop.o.d -o CMakeFiles/network.dir/EventLoop.o -c /home/mywork/MpRPC_Cpp/net/src/EventLoop.cpp
 
 net/src/CMakeFiles/network.dir/EventLoop.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/EventLoop.i"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/wxz_rpc/net/src/EventLoop.cpp > CMakeFiles/network.dir/EventLoop.i
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/net/src/EventLoop.cpp > CMakeFiles/network.dir/EventLoop.i
 
 net/src/CMakeFiles/network.dir/EventLoop.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/EventLoop.s"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/wxz_rpc/net/src/EventLoop.cpp -o CMakeFiles/network.dir/EventLoop.s
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/net/src/EventLoop.cpp -o CMakeFiles/network.dir/EventLoop.s
 
 net/src/CMakeFiles/network.dir/EventLoopThread.o: net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/EventLoopThread.o: ../net/src/EventLoopThread.cpp
 net/src/CMakeFiles/network.dir/EventLoopThread.o: net/src/CMakeFiles/network.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object net/src/CMakeFiles/network.dir/EventLoopThread.o"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/EventLoopThread.o -MF CMakeFiles/network.dir/EventLoopThread.o.d -o CMakeFiles/network.dir/EventLoopThread.o -c /home/mywork/wxz_rpc/net/src/EventLoopThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object net/src/CMakeFiles/network.dir/EventLoopThread.o"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/EventLoopThread.o -MF CMakeFiles/network.dir/EventLoopThread.o.d -o CMakeFiles/network.dir/EventLoopThread.o -c /home/mywork/MpRPC_Cpp/net/src/EventLoopThread.cpp
 
 net/src/CMakeFiles/network.dir/EventLoopThread.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/EventLoopThread.i"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/wxz_rpc/net/src/EventLoopThread.cpp > CMakeFiles/network.dir/EventLoopThread.i
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/net/src/EventLoopThread.cpp > CMakeFiles/network.dir/EventLoopThread.i
 
 net/src/CMakeFiles/network.dir/EventLoopThread.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/EventLoopThread.s"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/wxz_rpc/net/src/EventLoopThread.cpp -o CMakeFiles/network.dir/EventLoopThread.s
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/net/src/EventLoopThread.cpp -o CMakeFiles/network.dir/EventLoopThread.s
 
 net/src/CMakeFiles/network.dir/EventLoopThreadPoll.o: net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/EventLoopThreadPoll.o: ../net/src/EventLoopThreadPoll.cpp
 net/src/CMakeFiles/network.dir/EventLoopThreadPoll.o: net/src/CMakeFiles/network.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object net/src/CMakeFiles/network.dir/EventLoopThreadPoll.o"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/EventLoopThreadPoll.o -MF CMakeFiles/network.dir/EventLoopThreadPoll.o.d -o CMakeFiles/network.dir/EventLoopThreadPoll.o -c /home/mywork/wxz_rpc/net/src/EventLoopThreadPoll.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object net/src/CMakeFiles/network.dir/EventLoopThreadPoll.o"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/EventLoopThreadPoll.o -MF CMakeFiles/network.dir/EventLoopThreadPoll.o.d -o CMakeFiles/network.dir/EventLoopThreadPoll.o -c /home/mywork/MpRPC_Cpp/net/src/EventLoopThreadPoll.cpp
 
 net/src/CMakeFiles/network.dir/EventLoopThreadPoll.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/EventLoopThreadPoll.i"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/wxz_rpc/net/src/EventLoopThreadPoll.cpp > CMakeFiles/network.dir/EventLoopThreadPoll.i
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/net/src/EventLoopThreadPoll.cpp > CMakeFiles/network.dir/EventLoopThreadPoll.i
 
 net/src/CMakeFiles/network.dir/EventLoopThreadPoll.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/EventLoopThreadPoll.s"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/wxz_rpc/net/src/EventLoopThreadPoll.cpp -o CMakeFiles/network.dir/EventLoopThreadPoll.s
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/net/src/EventLoopThreadPoll.cpp -o CMakeFiles/network.dir/EventLoopThreadPoll.s
 
 net/src/CMakeFiles/network.dir/InetAddress.o: net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/InetAddress.o: ../net/src/InetAddress.cpp
 net/src/CMakeFiles/network.dir/InetAddress.o: net/src/CMakeFiles/network.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object net/src/CMakeFiles/network.dir/InetAddress.o"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/InetAddress.o -MF CMakeFiles/network.dir/InetAddress.o.d -o CMakeFiles/network.dir/InetAddress.o -c /home/mywork/wxz_rpc/net/src/InetAddress.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object net/src/CMakeFiles/network.dir/InetAddress.o"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/InetAddress.o -MF CMakeFiles/network.dir/InetAddress.o.d -o CMakeFiles/network.dir/InetAddress.o -c /home/mywork/MpRPC_Cpp/net/src/InetAddress.cpp
 
 net/src/CMakeFiles/network.dir/InetAddress.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/InetAddress.i"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/wxz_rpc/net/src/InetAddress.cpp > CMakeFiles/network.dir/InetAddress.i
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/net/src/InetAddress.cpp > CMakeFiles/network.dir/InetAddress.i
 
 net/src/CMakeFiles/network.dir/InetAddress.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/InetAddress.s"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/wxz_rpc/net/src/InetAddress.cpp -o CMakeFiles/network.dir/InetAddress.s
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/net/src/InetAddress.cpp -o CMakeFiles/network.dir/InetAddress.s
 
 net/src/CMakeFiles/network.dir/Logger.o: net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/Logger.o: ../net/src/Logger.cpp
 net/src/CMakeFiles/network.dir/Logger.o: net/src/CMakeFiles/network.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object net/src/CMakeFiles/network.dir/Logger.o"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/Logger.o -MF CMakeFiles/network.dir/Logger.o.d -o CMakeFiles/network.dir/Logger.o -c /home/mywork/wxz_rpc/net/src/Logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object net/src/CMakeFiles/network.dir/Logger.o"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/Logger.o -MF CMakeFiles/network.dir/Logger.o.d -o CMakeFiles/network.dir/Logger.o -c /home/mywork/MpRPC_Cpp/net/src/Logger.cpp
 
 net/src/CMakeFiles/network.dir/Logger.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/Logger.i"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/wxz_rpc/net/src/Logger.cpp > CMakeFiles/network.dir/Logger.i
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/net/src/Logger.cpp > CMakeFiles/network.dir/Logger.i
 
 net/src/CMakeFiles/network.dir/Logger.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/Logger.s"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/wxz_rpc/net/src/Logger.cpp -o CMakeFiles/network.dir/Logger.s
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/net/src/Logger.cpp -o CMakeFiles/network.dir/Logger.s
 
 net/src/CMakeFiles/network.dir/Poller.o: net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/Poller.o: ../net/src/Poller.cpp
 net/src/CMakeFiles/network.dir/Poller.o: net/src/CMakeFiles/network.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object net/src/CMakeFiles/network.dir/Poller.o"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/Poller.o -MF CMakeFiles/network.dir/Poller.o.d -o CMakeFiles/network.dir/Poller.o -c /home/mywork/wxz_rpc/net/src/Poller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object net/src/CMakeFiles/network.dir/Poller.o"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/Poller.o -MF CMakeFiles/network.dir/Poller.o.d -o CMakeFiles/network.dir/Poller.o -c /home/mywork/MpRPC_Cpp/net/src/Poller.cpp
 
 net/src/CMakeFiles/network.dir/Poller.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/Poller.i"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/wxz_rpc/net/src/Poller.cpp > CMakeFiles/network.dir/Poller.i
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/net/src/Poller.cpp > CMakeFiles/network.dir/Poller.i
 
 net/src/CMakeFiles/network.dir/Poller.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/Poller.s"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/wxz_rpc/net/src/Poller.cpp -o CMakeFiles/network.dir/Poller.s
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/net/src/Poller.cpp -o CMakeFiles/network.dir/Poller.s
 
 net/src/CMakeFiles/network.dir/Socket.o: net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/Socket.o: ../net/src/Socket.cpp
 net/src/CMakeFiles/network.dir/Socket.o: net/src/CMakeFiles/network.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object net/src/CMakeFiles/network.dir/Socket.o"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/Socket.o -MF CMakeFiles/network.dir/Socket.o.d -o CMakeFiles/network.dir/Socket.o -c /home/mywork/wxz_rpc/net/src/Socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object net/src/CMakeFiles/network.dir/Socket.o"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/Socket.o -MF CMakeFiles/network.dir/Socket.o.d -o CMakeFiles/network.dir/Socket.o -c /home/mywork/MpRPC_Cpp/net/src/Socket.cpp
 
 net/src/CMakeFiles/network.dir/Socket.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/Socket.i"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/wxz_rpc/net/src/Socket.cpp > CMakeFiles/network.dir/Socket.i
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/net/src/Socket.cpp > CMakeFiles/network.dir/Socket.i
 
 net/src/CMakeFiles/network.dir/Socket.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/Socket.s"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/wxz_rpc/net/src/Socket.cpp -o CMakeFiles/network.dir/Socket.s
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/net/src/Socket.cpp -o CMakeFiles/network.dir/Socket.s
 
 net/src/CMakeFiles/network.dir/TcpConnection.o: net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/TcpConnection.o: ../net/src/TcpConnection.cpp
 net/src/CMakeFiles/network.dir/TcpConnection.o: net/src/CMakeFiles/network.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object net/src/CMakeFiles/network.dir/TcpConnection.o"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/TcpConnection.o -MF CMakeFiles/network.dir/TcpConnection.o.d -o CMakeFiles/network.dir/TcpConnection.o -c /home/mywork/wxz_rpc/net/src/TcpConnection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object net/src/CMakeFiles/network.dir/TcpConnection.o"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/TcpConnection.o -MF CMakeFiles/network.dir/TcpConnection.o.d -o CMakeFiles/network.dir/TcpConnection.o -c /home/mywork/MpRPC_Cpp/net/src/TcpConnection.cpp
 
 net/src/CMakeFiles/network.dir/TcpConnection.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/TcpConnection.i"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/wxz_rpc/net/src/TcpConnection.cpp > CMakeFiles/network.dir/TcpConnection.i
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/net/src/TcpConnection.cpp > CMakeFiles/network.dir/TcpConnection.i
 
 net/src/CMakeFiles/network.dir/TcpConnection.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/TcpConnection.s"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/wxz_rpc/net/src/TcpConnection.cpp -o CMakeFiles/network.dir/TcpConnection.s
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/net/src/TcpConnection.cpp -o CMakeFiles/network.dir/TcpConnection.s
 
 net/src/CMakeFiles/network.dir/TcpServer.o: net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/TcpServer.o: ../net/src/TcpServer.cpp
 net/src/CMakeFiles/network.dir/TcpServer.o: net/src/CMakeFiles/network.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object net/src/CMakeFiles/network.dir/TcpServer.o"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/TcpServer.o -MF CMakeFiles/network.dir/TcpServer.o.d -o CMakeFiles/network.dir/TcpServer.o -c /home/mywork/wxz_rpc/net/src/TcpServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object net/src/CMakeFiles/network.dir/TcpServer.o"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/TcpServer.o -MF CMakeFiles/network.dir/TcpServer.o.d -o CMakeFiles/network.dir/TcpServer.o -c /home/mywork/MpRPC_Cpp/net/src/TcpServer.cpp
 
 net/src/CMakeFiles/network.dir/TcpServer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/TcpServer.i"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/wxz_rpc/net/src/TcpServer.cpp > CMakeFiles/network.dir/TcpServer.i
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/net/src/TcpServer.cpp > CMakeFiles/network.dir/TcpServer.i
 
 net/src/CMakeFiles/network.dir/TcpServer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/TcpServer.s"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/wxz_rpc/net/src/TcpServer.cpp -o CMakeFiles/network.dir/TcpServer.s
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/net/src/TcpServer.cpp -o CMakeFiles/network.dir/TcpServer.s
 
 net/src/CMakeFiles/network.dir/Thread.o: net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/Thread.o: ../net/src/Thread.cpp
 net/src/CMakeFiles/network.dir/Thread.o: net/src/CMakeFiles/network.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object net/src/CMakeFiles/network.dir/Thread.o"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/Thread.o -MF CMakeFiles/network.dir/Thread.o.d -o CMakeFiles/network.dir/Thread.o -c /home/mywork/wxz_rpc/net/src/Thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object net/src/CMakeFiles/network.dir/Thread.o"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/Thread.o -MF CMakeFiles/network.dir/Thread.o.d -o CMakeFiles/network.dir/Thread.o -c /home/mywork/MpRPC_Cpp/net/src/Thread.cpp
 
 net/src/CMakeFiles/network.dir/Thread.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/Thread.i"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/wxz_rpc/net/src/Thread.cpp > CMakeFiles/network.dir/Thread.i
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/net/src/Thread.cpp > CMakeFiles/network.dir/Thread.i
 
 net/src/CMakeFiles/network.dir/Thread.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/Thread.s"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/wxz_rpc/net/src/Thread.cpp -o CMakeFiles/network.dir/Thread.s
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/net/src/Thread.cpp -o CMakeFiles/network.dir/Thread.s
 
 net/src/CMakeFiles/network.dir/Timestamp.o: net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/Timestamp.o: ../net/src/Timestamp.cpp
 net/src/CMakeFiles/network.dir/Timestamp.o: net/src/CMakeFiles/network.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object net/src/CMakeFiles/network.dir/Timestamp.o"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/Timestamp.o -MF CMakeFiles/network.dir/Timestamp.o.d -o CMakeFiles/network.dir/Timestamp.o -c /home/mywork/wxz_rpc/net/src/Timestamp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object net/src/CMakeFiles/network.dir/Timestamp.o"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/Timestamp.o -MF CMakeFiles/network.dir/Timestamp.o.d -o CMakeFiles/network.dir/Timestamp.o -c /home/mywork/MpRPC_Cpp/net/src/Timestamp.cpp
 
 net/src/CMakeFiles/network.dir/Timestamp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/Timestamp.i"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/wxz_rpc/net/src/Timestamp.cpp > CMakeFiles/network.dir/Timestamp.i
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/net/src/Timestamp.cpp > CMakeFiles/network.dir/Timestamp.i
 
 net/src/CMakeFiles/network.dir/Timestamp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/Timestamp.s"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/wxz_rpc/net/src/Timestamp.cpp -o CMakeFiles/network.dir/Timestamp.s
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/net/src/Timestamp.cpp -o CMakeFiles/network.dir/Timestamp.s
 
 net/src/CMakeFiles/network.dir/test.o: net/src/CMakeFiles/network.dir/flags.make
 net/src/CMakeFiles/network.dir/test.o: ../net/src/test.cpp
 net/src/CMakeFiles/network.dir/test.o: net/src/CMakeFiles/network.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object net/src/CMakeFiles/network.dir/test.o"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/test.o -MF CMakeFiles/network.dir/test.o.d -o CMakeFiles/network.dir/test.o -c /home/mywork/wxz_rpc/net/src/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object net/src/CMakeFiles/network.dir/test.o"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT net/src/CMakeFiles/network.dir/test.o -MF CMakeFiles/network.dir/test.o.d -o CMakeFiles/network.dir/test.o -c /home/mywork/MpRPC_Cpp/net/src/test.cpp
 
 net/src/CMakeFiles/network.dir/test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/test.i"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/wxz_rpc/net/src/test.cpp > CMakeFiles/network.dir/test.i
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/net/src/test.cpp > CMakeFiles/network.dir/test.i
 
 net/src/CMakeFiles/network.dir/test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/test.s"
-	cd /home/mywork/wxz_rpc/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/wxz_rpc/net/src/test.cpp -o CMakeFiles/network.dir/test.s
+	cd /home/mywork/MpRPC_Cpp/build/net/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/net/src/test.cpp -o CMakeFiles/network.dir/test.s
 
 # Object files for target network
 network_OBJECTS = \
@@ -365,19 +365,19 @@ network_EXTERNAL_OBJECTS =
 ../lib/libnetwork.a: net/src/CMakeFiles/network.dir/test.o
 ../lib/libnetwork.a: net/src/CMakeFiles/network.dir/build.make
 ../lib/libnetwork.a: net/src/CMakeFiles/network.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mywork/wxz_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX static library ../../../lib/libnetwork.a"
-	cd /home/mywork/wxz_rpc/build/net/src && $(CMAKE_COMMAND) -P CMakeFiles/network.dir/cmake_clean_target.cmake
-	cd /home/mywork/wxz_rpc/build/net/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/network.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX static library ../../../lib/libnetwork.a"
+	cd /home/mywork/MpRPC_Cpp/build/net/src && $(CMAKE_COMMAND) -P CMakeFiles/network.dir/cmake_clean_target.cmake
+	cd /home/mywork/MpRPC_Cpp/build/net/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/network.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 net/src/CMakeFiles/network.dir/build: ../lib/libnetwork.a
 .PHONY : net/src/CMakeFiles/network.dir/build
 
 net/src/CMakeFiles/network.dir/clean:
-	cd /home/mywork/wxz_rpc/build/net/src && $(CMAKE_COMMAND) -P CMakeFiles/network.dir/cmake_clean.cmake
+	cd /home/mywork/MpRPC_Cpp/build/net/src && $(CMAKE_COMMAND) -P CMakeFiles/network.dir/cmake_clean.cmake
 .PHONY : net/src/CMakeFiles/network.dir/clean
 
 net/src/CMakeFiles/network.dir/depend:
-	cd /home/mywork/wxz_rpc/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mywork/wxz_rpc /home/mywork/wxz_rpc/net/src /home/mywork/wxz_rpc/build /home/mywork/wxz_rpc/build/net/src /home/mywork/wxz_rpc/build/net/src/CMakeFiles/network.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mywork/MpRPC_Cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mywork/MpRPC_Cpp /home/mywork/MpRPC_Cpp/net/src /home/mywork/MpRPC_Cpp/build /home/mywork/MpRPC_Cpp/build/net/src /home/mywork/MpRPC_Cpp/build/net/src/CMakeFiles/network.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : net/src/CMakeFiles/network.dir/depend
 

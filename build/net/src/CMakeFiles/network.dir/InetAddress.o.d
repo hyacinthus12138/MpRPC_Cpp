@@ -1,7 +1,9 @@
 net/src/CMakeFiles/network.dir/InetAddress.o: \
- /home/mywork/wxz_rpc/net/src/InetAddress.cpp /usr/include/stdc-predef.h \
- /home/mywork/wxz_rpc/net/include/InetAddress.h /usr/include/netinet/in.h \
- /usr/include/features.h /usr/include/features-time64.h \
+ /home/mywork/MpRPC_Cpp/net/src/InetAddress.cpp \
+ /usr/include/stdc-predef.h \
+ /home/mywork/MpRPC_Cpp/net/include/InetAddress.h \
+ /usr/include/netinet/in.h /usr/include/features.h \
+ /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mywork/wxz_rpc
+CMAKE_SOURCE_DIR = /home/mywork/MpRPC_Cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mywork/wxz_rpc/build
+CMAKE_BINARY_DIR = /home/mywork/MpRPC_Cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mywork/wxz_rpc/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mywork/wxz_rpc/build/CMakeFiles /home/mywork/wxz_rpc/build/rpc/src//CMakeFiles/progress.marks
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpc/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mywork/wxz_rpc/build/CMakeFiles 0
+	cd /home/mywork/MpRPC_Cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mywork/MpRPC_Cpp/build/CMakeFiles /home/mywork/MpRPC_Cpp/build/rpc/src//CMakeFiles/progress.marks
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpc/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mywork/MpRPC_Cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpc/src/clean
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpc/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpc/src/preinstall
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpc/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpc/src/preinstall
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpc/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mywork/wxz_rpc/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mywork/MpRPC_Cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 rpc/src/CMakeFiles/rpc.dir/rule:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpc/src/CMakeFiles/rpc.dir/rule
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpc/src/CMakeFiles/rpc.dir/rule
 .PHONY : rpc/src/CMakeFiles/rpc.dir/rule
 
 # Convenience name for target.
@@ -127,98 +127,113 @@ rpc: rpc/src/CMakeFiles/rpc.dir/rule
 
 # fast build rule for target.
 rpc/fast:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/build
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/build
 .PHONY : rpc/fast
 
 # target to build an object file
 application.o:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/application.o
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/application.o
 .PHONY : application.o
 
 # target to preprocess a source file
 application.i:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/application.i
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/application.i
 .PHONY : application.i
 
 # target to generate assembly for a file
 application.s:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/application.s
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/application.s
 .PHONY : application.s
 
 # target to build an object file
 head.pb.o:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/head.pb.o
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/head.pb.o
 .PHONY : head.pb.o
 
 # target to preprocess a source file
 head.pb.i:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/head.pb.i
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/head.pb.i
 .PHONY : head.pb.i
 
 # target to generate assembly for a file
 head.pb.s:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/head.pb.s
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/head.pb.s
 .PHONY : head.pb.s
 
 # target to build an object file
 provider.o:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/provider.o
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/provider.o
 .PHONY : provider.o
 
 # target to preprocess a source file
 provider.i:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/provider.i
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/provider.i
 .PHONY : provider.i
 
 # target to generate assembly for a file
 provider.s:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/provider.s
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/provider.s
 .PHONY : provider.s
 
 # target to build an object file
 rpcChannel.o:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/rpcChannel.o
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/rpcChannel.o
 .PHONY : rpcChannel.o
 
 # target to preprocess a source file
 rpcChannel.i:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/rpcChannel.i
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/rpcChannel.i
 .PHONY : rpcChannel.i
 
 # target to generate assembly for a file
 rpcChannel.s:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/rpcChannel.s
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/rpcChannel.s
 .PHONY : rpcChannel.s
 
 # target to build an object file
 rpcConfig.o:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/rpcConfig.o
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/rpcConfig.o
 .PHONY : rpcConfig.o
 
 # target to preprocess a source file
 rpcConfig.i:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/rpcConfig.i
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/rpcConfig.i
 .PHONY : rpcConfig.i
 
 # target to generate assembly for a file
 rpcConfig.s:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/rpcConfig.s
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/rpcConfig.s
 .PHONY : rpcConfig.s
 
 # target to build an object file
 rpccontroller.o:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/rpccontroller.o
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/rpccontroller.o
 .PHONY : rpccontroller.o
 
 # target to preprocess a source file
 rpccontroller.i:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/rpccontroller.i
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/rpccontroller.i
 .PHONY : rpccontroller.i
 
 # target to generate assembly for a file
 rpccontroller.s:
-	cd /home/mywork/wxz_rpc/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/rpccontroller.s
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/rpccontroller.s
 .PHONY : rpccontroller.s
+
+# target to build an object file
+zookeeperutil.o:
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/zookeeperutil.o
+.PHONY : zookeeperutil.o
+
+# target to preprocess a source file
+zookeeperutil.i:
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/zookeeperutil.i
+.PHONY : zookeeperutil.i
+
+# target to generate assembly for a file
+zookeeperutil.s:
+	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f rpc/src/CMakeFiles/rpc.dir/build.make rpc/src/CMakeFiles/rpc.dir/zookeeperutil.s
+.PHONY : zookeeperutil.s
 
 # Help Target
 help:
@@ -247,6 +262,9 @@ help:
 	@echo "... rpccontroller.o"
 	@echo "... rpccontroller.i"
 	@echo "... rpccontroller.s"
+	@echo "... zookeeperutil.o"
+	@echo "... zookeeperutil.i"
+	@echo "... zookeeperutil.s"
 .PHONY : help
 
 
@@ -258,6 +276,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mywork/wxz_rpc/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mywork/MpRPC_Cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

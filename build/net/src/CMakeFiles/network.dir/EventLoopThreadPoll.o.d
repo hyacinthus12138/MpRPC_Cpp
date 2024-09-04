@@ -1,7 +1,7 @@
 net/src/CMakeFiles/network.dir/EventLoopThreadPoll.o: \
- /home/mywork/wxz_rpc/net/src/EventLoopThreadPoll.cpp \
+ /home/mywork/MpRPC_Cpp/net/src/EventLoopThreadPoll.cpp \
  /usr/include/stdc-predef.h \
- /home/mywork/wxz_rpc/net/include/EventLoopThreadPoll.h \
+ /home/mywork/MpRPC_Cpp/net/include/EventLoopThreadPoll.h \
  /usr/include/c++/11/functional \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -169,9 +169,9 @@ net/src/CMakeFiles/network.dir/EventLoopThreadPoll.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/mywork/wxz_rpc/net/include/noncopyable.h \
- /home/mywork/wxz_rpc/net/include/EventLoopThread.h \
- /home/mywork/wxz_rpc/net/include/Thread.h /usr/include/c++/11/thread \
+ /home/mywork/MpRPC_Cpp/net/include/noncopyable.h \
+ /home/mywork/MpRPC_Cpp/net/include/EventLoopThread.h \
+ /home/mywork/MpRPC_Cpp/net/include/Thread.h /usr/include/c++/11/thread \
  /usr/include/c++/11/bits/std_thread.h \
  /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/limits \

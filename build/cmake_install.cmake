@@ -1,4 +1,4 @@
-# Install script for directory: /home/mywork/wxz_rpc
+# Install script for directory: /home/mywork/MpRPC_Cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,9 +44,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mywork/wxz_rpc/build/net/cmake_install.cmake")
-  include("/home/mywork/wxz_rpc/build/examples/cmake_install.cmake")
-  include("/home/mywork/wxz_rpc/build/rpc/cmake_install.cmake")
+  include("/home/mywork/MpRPC_Cpp/build/net/cmake_install.cmake")
+  include("/home/mywork/MpRPC_Cpp/build/examples/cmake_install.cmake")
+  include("/home/mywork/MpRPC_Cpp/build/rpc/cmake_install.cmake")
 
 endif()
 
@@ -58,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mywork/wxz_rpc/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mywork/MpRPC_Cpp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

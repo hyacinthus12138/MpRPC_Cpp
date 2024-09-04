@@ -1,4 +1,4 @@
-# Install script for directory: /home/mywork/wxz_rpc/examples/muduo
+# Install script for directory: /home/mywork/MpRPC_Cpp/examples/muduo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
