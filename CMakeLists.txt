@@ -15,10 +15,14 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 # 设置.h文件搜索路径 
 include_directories(${PROJECT_SOURCE_DIR}/net/include)
 include_directories(${PROJECT_SOURCE_DIR}/rpc/include)
+include_directories(${PROJECT_SOURCE_DIR}/rpc/src)
 include_directories(${PROJECT_SOURCE_DIR}/examples/rpc/userproto)
 include_directories(${PROJECT_SOURCE_DIR}/examples/rpc/friendproto)
+include_directories(/usr/local/include/) 
+
 # 设置项目库文件搜索路径 -L
 link_directories(${PROJECT_SOURCE_DIR}/lib)
+link_directories(/usr/lib)
 
 
 add_subdirectory(net)

@@ -276,7 +276,7 @@ rpc/src/CMakeFiles/rpc.dir/rpcChannel.o: \
  /usr/local/include/google/protobuf/io/zero_copy_stream_impl_lite.h \
  /usr/local/include/google/protobuf/stubs/stl_util.h \
  /home/mywork/MpRPC_Cpp/rpc/include/rpccontroller.h \
- /home/mywork/MpRPC_Cpp/rpc/include/head.pb.h \
+ /home/mywork/MpRPC_Cpp/rpc/src/head.pb.h \
  /usr/local/include/google/protobuf/generated_message_table_driven.h \
  /usr/local/include/google/protobuf/map.h \
  /usr/local/include/google/protobuf/map_type_handler.h \

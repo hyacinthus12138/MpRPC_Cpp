@@ -6,6 +6,7 @@ set(SRC_LIST
     rpcConfig.cpp 
     rpccontroller.cpp 
     zookeeperutil.cpp
+    logger.cpp 
     )
 add_library(rpc ${SRC_LIST})
 target_link_libraries(rpc network )

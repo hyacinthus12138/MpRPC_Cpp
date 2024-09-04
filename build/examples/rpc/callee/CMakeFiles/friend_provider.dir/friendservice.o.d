@@ -283,7 +283,7 @@ examples/rpc/callee/CMakeFiles/friend_provider.dir/friendservice.o: \
  /home/mywork/MpRPC_Cpp/rpc/include/application.h \
  /home/mywork/MpRPC_Cpp/rpc/include/rpcConfig.h \
  /home/mywork/MpRPC_Cpp/rpc/include/provider.h \
- /home/mywork/MpRPC_Cpp/rpc/include/head.pb.h \
+ /home/mywork/MpRPC_Cpp/rpc/src/head.pb.h \
  /home/mywork/MpRPC_Cpp/net/include/TcpServer.h \
  /home/mywork/MpRPC_Cpp/net/include/EventLoop.h \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \

@@ -234,7 +234,7 @@ rpc/src/CMakeFiles/rpc.dir/provider.o: \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/unordered_map.h \
  /home/mywork/MpRPC_Cpp/rpc/include/application.h \
- /home/mywork/MpRPC_Cpp/rpc/include/head.pb.h /usr/include/c++/11/limits \
+ /home/mywork/MpRPC_Cpp/rpc/src/head.pb.h /usr/include/c++/11/limits \
  /usr/local/include/google/protobuf/io/coded_stream.h \
  /usr/include/c++/11/atomic /usr/include/c++/11/climits \
  /usr/include/c++/11/cstring \
