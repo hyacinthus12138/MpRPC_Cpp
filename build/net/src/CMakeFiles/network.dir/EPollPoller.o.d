@@ -1,10 +1,10 @@
 net/src/CMakeFiles/network.dir/EPollPoller.o: \
- /home/mywork/MpRPC_Cpp/net/src/EPollPoller.cpp \
+ /home/mywork/mywork/MpRPC_Cpp/net/src/EPollPoller.cpp \
  /usr/include/stdc-predef.h \
- /home/mywork/MpRPC_Cpp/net/include/EPollPoller.h \
- /home/mywork/MpRPC_Cpp/net/include/Poller.h \
- /home/mywork/MpRPC_Cpp/net/include/noncopyable.h \
- /home/mywork/MpRPC_Cpp/net/include/Timestamp.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/EPollPoller.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Poller.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/noncopyable.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Timestamp.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -164,8 +164,8 @@ net/src/CMakeFiles/network.dir/EPollPoller.o: \
  /usr/include/c++/11/bits/erase_if.h \
  /usr/include/x86_64-linux-gnu/sys/epoll.h \
  /usr/include/x86_64-linux-gnu/bits/epoll.h \
- /home/mywork/MpRPC_Cpp/net/include/Logger.h \
- /home/mywork/MpRPC_Cpp/net/include/Channel.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Logger.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Channel.h \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/refwrap.h \
  /usr/include/c++/11/bits/std_function.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_tempbuf.h \

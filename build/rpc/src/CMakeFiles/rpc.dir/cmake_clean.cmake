@@ -5,8 +5,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/rpc.dir/application.o.d"
   "CMakeFiles/rpc.dir/head.pb.o"
   "CMakeFiles/rpc.dir/head.pb.o.d"
-  "CMakeFiles/rpc.dir/logger.o"
-  "CMakeFiles/rpc.dir/logger.o.d"
   "CMakeFiles/rpc.dir/provider.o"
   "CMakeFiles/rpc.dir/provider.o.d"
   "CMakeFiles/rpc.dir/rpcChannel.o"
@@ -15,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/rpc.dir/rpcConfig.o.d"
   "CMakeFiles/rpc.dir/rpccontroller.o"
   "CMakeFiles/rpc.dir/rpccontroller.o.d"
+  "CMakeFiles/rpc.dir/rpclogger.o"
+  "CMakeFiles/rpc.dir/rpclogger.o.d"
   "CMakeFiles/rpc.dir/zookeeperutil.o"
   "CMakeFiles/rpc.dir/zookeeperutil.o.d"
 )

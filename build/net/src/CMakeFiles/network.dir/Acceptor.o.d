@@ -1,10 +1,11 @@
 net/src/CMakeFiles/network.dir/Acceptor.o: \
- /home/mywork/MpRPC_Cpp/net/src/Acceptor.cpp /usr/include/stdc-predef.h \
- /home/mywork/MpRPC_Cpp/net/include/Acceptor.h \
- /home/mywork/MpRPC_Cpp/net/include/noncopyable.h \
- /home/mywork/MpRPC_Cpp/net/include/Socket.h \
- /home/mywork/MpRPC_Cpp/net/include/Channel.h \
- /home/mywork/MpRPC_Cpp/net/include/Timestamp.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/src/Acceptor.cpp \
+ /usr/include/stdc-predef.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Acceptor.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/noncopyable.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Socket.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Channel.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Timestamp.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -168,7 +169,7 @@ net/src/CMakeFiles/network.dir/Acceptor.o: \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /home/mywork/MpRPC_Cpp/net/include/InetAddress.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/InetAddress.h \
  /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/x86_64-linux-gnu/bits/socket.h \
@@ -186,7 +187,7 @@ net/src/CMakeFiles/network.dir/Acceptor.o: \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
  /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/arpa/inet.h \
- /home/mywork/MpRPC_Cpp/net/include/Logger.h /usr/include/unistd.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Logger.h /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mywork/MpRPC_Cpp/net/include -I/home/mywork/MpRPC_Cpp/rpc/include -I/home/mywork/MpRPC_Cpp/rpc/src -I/home/mywork/MpRPC_Cpp/examples/rpc/userproto -I/home/mywork/MpRPC_Cpp/examples/rpc/friendproto
+CXX_INCLUDES = -I/home/mywork/mywork/MpRPC_Cpp/net/include -I/home/mywork/mywork/MpRPC_Cpp/rpc/include -I/home/mywork/mywork/MpRPC_Cpp/rpc/src -I/home/mywork/mywork/MpRPC_Cpp/examples/rpc/userproto -I/home/mywork/mywork/MpRPC_Cpp/examples/rpc/friendproto
 
 CXX_FLAGS =  -g -std=c++11 -g
 

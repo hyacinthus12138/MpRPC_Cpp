@@ -1,8 +1,8 @@
 rpc/src/CMakeFiles/rpc.dir/application.o: \
- /home/mywork/MpRPC_Cpp/rpc/src/application.cpp \
+ /home/mywork/mywork/MpRPC_Cpp/rpc/src/application.cpp \
  /usr/include/stdc-predef.h \
- /home/mywork/MpRPC_Cpp/rpc/src/../include/application.h \
- /home/mywork/MpRPC_Cpp/rpc/src/../include/rpcConfig.h \
+ /home/mywork/mywork/MpRPC_Cpp/rpc/src/../include/application.h \
+ /home/mywork/mywork/MpRPC_Cpp/rpc/src/../include/rpcConfig.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

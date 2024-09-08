@@ -1,7 +1,7 @@
 examples/rpc/callee/CMakeFiles/friend_provider.dir/__/friendproto/friend.pb.o: \
- /home/mywork/MpRPC_Cpp/examples/rpc/friendproto/friend.pb.cc \
+ /home/mywork/mywork/MpRPC_Cpp/examples/rpc/friendproto/friend.pb.cc \
  /usr/include/stdc-predef.h \
- /home/mywork/MpRPC_Cpp/examples/rpc/friendproto/friend.pb.h \
+ /home/mywork/mywork/MpRPC_Cpp/examples/rpc/friendproto/friend.pb.h \
  /usr/include/c++/11/limits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

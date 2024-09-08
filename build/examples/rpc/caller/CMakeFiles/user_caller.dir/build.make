@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mywork/MpRPC_Cpp
+CMAKE_SOURCE_DIR = /home/mywork/mywork/MpRPC_Cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mywork/MpRPC_Cpp/build
+CMAKE_BINARY_DIR = /home/mywork/mywork/MpRPC_Cpp/build
 
 # Include any dependencies generated for this target.
 include examples/rpc/caller/CMakeFiles/user_caller.dir/depend.make
@@ -72,30 +72,30 @@ include examples/rpc/caller/CMakeFiles/user_caller.dir/flags.make
 examples/rpc/caller/CMakeFiles/user_caller.dir/calluserservice.o: examples/rpc/caller/CMakeFiles/user_caller.dir/flags.make
 examples/rpc/caller/CMakeFiles/user_caller.dir/calluserservice.o: ../examples/rpc/caller/calluserservice.cpp
 examples/rpc/caller/CMakeFiles/user_caller.dir/calluserservice.o: examples/rpc/caller/CMakeFiles/user_caller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/rpc/caller/CMakeFiles/user_caller.dir/calluserservice.o"
-	cd /home/mywork/MpRPC_Cpp/build/examples/rpc/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/rpc/caller/CMakeFiles/user_caller.dir/calluserservice.o -MF CMakeFiles/user_caller.dir/calluserservice.o.d -o CMakeFiles/user_caller.dir/calluserservice.o -c /home/mywork/MpRPC_Cpp/examples/rpc/caller/calluserservice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/rpc/caller/CMakeFiles/user_caller.dir/calluserservice.o"
+	cd /home/mywork/mywork/MpRPC_Cpp/build/examples/rpc/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/rpc/caller/CMakeFiles/user_caller.dir/calluserservice.o -MF CMakeFiles/user_caller.dir/calluserservice.o.d -o CMakeFiles/user_caller.dir/calluserservice.o -c /home/mywork/mywork/MpRPC_Cpp/examples/rpc/caller/calluserservice.cpp
 
 examples/rpc/caller/CMakeFiles/user_caller.dir/calluserservice.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/user_caller.dir/calluserservice.i"
-	cd /home/mywork/MpRPC_Cpp/build/examples/rpc/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/examples/rpc/caller/calluserservice.cpp > CMakeFiles/user_caller.dir/calluserservice.i
+	cd /home/mywork/mywork/MpRPC_Cpp/build/examples/rpc/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/mywork/MpRPC_Cpp/examples/rpc/caller/calluserservice.cpp > CMakeFiles/user_caller.dir/calluserservice.i
 
 examples/rpc/caller/CMakeFiles/user_caller.dir/calluserservice.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/user_caller.dir/calluserservice.s"
-	cd /home/mywork/MpRPC_Cpp/build/examples/rpc/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/examples/rpc/caller/calluserservice.cpp -o CMakeFiles/user_caller.dir/calluserservice.s
+	cd /home/mywork/mywork/MpRPC_Cpp/build/examples/rpc/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/mywork/MpRPC_Cpp/examples/rpc/caller/calluserservice.cpp -o CMakeFiles/user_caller.dir/calluserservice.s
 
 examples/rpc/caller/CMakeFiles/user_caller.dir/__/userproto/user.pb.o: examples/rpc/caller/CMakeFiles/user_caller.dir/flags.make
 examples/rpc/caller/CMakeFiles/user_caller.dir/__/userproto/user.pb.o: ../examples/rpc/userproto/user.pb.cc
 examples/rpc/caller/CMakeFiles/user_caller.dir/__/userproto/user.pb.o: examples/rpc/caller/CMakeFiles/user_caller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/rpc/caller/CMakeFiles/user_caller.dir/__/userproto/user.pb.o"
-	cd /home/mywork/MpRPC_Cpp/build/examples/rpc/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/rpc/caller/CMakeFiles/user_caller.dir/__/userproto/user.pb.o -MF CMakeFiles/user_caller.dir/__/userproto/user.pb.o.d -o CMakeFiles/user_caller.dir/__/userproto/user.pb.o -c /home/mywork/MpRPC_Cpp/examples/rpc/userproto/user.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/rpc/caller/CMakeFiles/user_caller.dir/__/userproto/user.pb.o"
+	cd /home/mywork/mywork/MpRPC_Cpp/build/examples/rpc/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/rpc/caller/CMakeFiles/user_caller.dir/__/userproto/user.pb.o -MF CMakeFiles/user_caller.dir/__/userproto/user.pb.o.d -o CMakeFiles/user_caller.dir/__/userproto/user.pb.o -c /home/mywork/mywork/MpRPC_Cpp/examples/rpc/userproto/user.pb.cc
 
 examples/rpc/caller/CMakeFiles/user_caller.dir/__/userproto/user.pb.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/user_caller.dir/__/userproto/user.pb.i"
-	cd /home/mywork/MpRPC_Cpp/build/examples/rpc/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/MpRPC_Cpp/examples/rpc/userproto/user.pb.cc > CMakeFiles/user_caller.dir/__/userproto/user.pb.i
+	cd /home/mywork/mywork/MpRPC_Cpp/build/examples/rpc/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/mywork/MpRPC_Cpp/examples/rpc/userproto/user.pb.cc > CMakeFiles/user_caller.dir/__/userproto/user.pb.i
 
 examples/rpc/caller/CMakeFiles/user_caller.dir/__/userproto/user.pb.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/user_caller.dir/__/userproto/user.pb.s"
-	cd /home/mywork/MpRPC_Cpp/build/examples/rpc/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/MpRPC_Cpp/examples/rpc/userproto/user.pb.cc -o CMakeFiles/user_caller.dir/__/userproto/user.pb.s
+	cd /home/mywork/mywork/MpRPC_Cpp/build/examples/rpc/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/mywork/MpRPC_Cpp/examples/rpc/userproto/user.pb.cc -o CMakeFiles/user_caller.dir/__/userproto/user.pb.s
 
 # Object files for target user_caller
 user_caller_OBJECTS = \
@@ -112,18 +112,18 @@ user_caller_EXTERNAL_OBJECTS =
 ../bin/user_caller: ../lib/librpc.a
 ../bin/user_caller: ../lib/libnetwork.a
 ../bin/user_caller: examples/rpc/caller/CMakeFiles/user_caller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../../bin/user_caller"
-	cd /home/mywork/MpRPC_Cpp/build/examples/rpc/caller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/user_caller.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mywork/mywork/MpRPC_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../../bin/user_caller"
+	cd /home/mywork/mywork/MpRPC_Cpp/build/examples/rpc/caller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/user_caller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/rpc/caller/CMakeFiles/user_caller.dir/build: ../bin/user_caller
 .PHONY : examples/rpc/caller/CMakeFiles/user_caller.dir/build
 
 examples/rpc/caller/CMakeFiles/user_caller.dir/clean:
-	cd /home/mywork/MpRPC_Cpp/build/examples/rpc/caller && $(CMAKE_COMMAND) -P CMakeFiles/user_caller.dir/cmake_clean.cmake
+	cd /home/mywork/mywork/MpRPC_Cpp/build/examples/rpc/caller && $(CMAKE_COMMAND) -P CMakeFiles/user_caller.dir/cmake_clean.cmake
 .PHONY : examples/rpc/caller/CMakeFiles/user_caller.dir/clean
 
 examples/rpc/caller/CMakeFiles/user_caller.dir/depend:
-	cd /home/mywork/MpRPC_Cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mywork/MpRPC_Cpp /home/mywork/MpRPC_Cpp/examples/rpc/caller /home/mywork/MpRPC_Cpp/build /home/mywork/MpRPC_Cpp/build/examples/rpc/caller /home/mywork/MpRPC_Cpp/build/examples/rpc/caller/CMakeFiles/user_caller.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mywork/mywork/MpRPC_Cpp /home/mywork/mywork/MpRPC_Cpp/examples/rpc/caller /home/mywork/mywork/MpRPC_Cpp/build /home/mywork/mywork/MpRPC_Cpp/build/examples/rpc/caller /home/mywork/mywork/MpRPC_Cpp/build/examples/rpc/caller/CMakeFiles/user_caller.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/rpc/caller/CMakeFiles/user_caller.dir/depend
 

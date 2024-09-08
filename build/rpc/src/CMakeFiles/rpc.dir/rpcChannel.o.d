@@ -1,6 +1,7 @@
 rpc/src/CMakeFiles/rpc.dir/rpcChannel.o: \
- /home/mywork/MpRPC_Cpp/rpc/src/rpcChannel.cpp /usr/include/stdc-predef.h \
- /home/mywork/MpRPC_Cpp/rpc/include/rpcChannel.h \
+ /home/mywork/mywork/MpRPC_Cpp/rpc/src/rpcChannel.cpp \
+ /usr/include/stdc-predef.h \
+ /home/mywork/mywork/MpRPC_Cpp/rpc/include/rpcChannel.h \
  /usr/local/include/google/protobuf/service.h /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -275,8 +276,8 @@ rpc/src/CMakeFiles/rpc.dir/rpcChannel.o: \
  /usr/local/include/google/protobuf/io/zero_copy_stream.h \
  /usr/local/include/google/protobuf/io/zero_copy_stream_impl_lite.h \
  /usr/local/include/google/protobuf/stubs/stl_util.h \
- /home/mywork/MpRPC_Cpp/rpc/include/rpccontroller.h \
- /home/mywork/MpRPC_Cpp/rpc/src/head.pb.h \
+ /home/mywork/mywork/MpRPC_Cpp/rpc/include/rpccontroller.h \
+ /home/mywork/mywork/MpRPC_Cpp/rpc/src/head.pb.h \
  /usr/local/include/google/protobuf/generated_message_table_driven.h \
  /usr/local/include/google/protobuf/map.h \
  /usr/local/include/google/protobuf/map_type_handler.h \
@@ -302,9 +303,9 @@ rpc/src/CMakeFiles/rpc.dir/rpcChannel.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
  /usr/include/arpa/inet.h /usr/include/netinet/in.h \
  /usr/include/x86_64-linux-gnu/bits/in.h \
- /home/mywork/MpRPC_Cpp/rpc/include/application.h \
- /home/mywork/MpRPC_Cpp/rpc/include/rpcConfig.h \
- /home/mywork/MpRPC_Cpp/rpc/include/zookeeperutil.h \
+ /home/mywork/mywork/MpRPC_Cpp/rpc/include/application.h \
+ /home/mywork/mywork/MpRPC_Cpp/rpc/include/rpcConfig.h \
+ /home/mywork/mywork/MpRPC_Cpp/rpc/include/zookeeperutil.h \
  /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
  /usr/local/include/zookeeper/zookeeper.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \

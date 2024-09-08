@@ -1,6 +1,6 @@
 net/src/CMakeFiles/network.dir/Logger.o: \
- /home/mywork/MpRPC_Cpp/net/src/Logger.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/11/string \
+ /home/mywork/mywork/MpRPC_Cpp/net/src/Logger.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -147,6 +147,6 @@ net/src/CMakeFiles/network.dir/Logger.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/mywork/MpRPC_Cpp/net/include/Timestamp.h \
- /home/mywork/MpRPC_Cpp/net/include/Logger.h \
- /home/mywork/MpRPC_Cpp/net/include/noncopyable.h
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Timestamp.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Logger.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/noncopyable.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/mywork/MpRPC_Cpp/net/src
+# Install script for directory: /home/mywork/mywork/MpRPC_Cpp/net/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

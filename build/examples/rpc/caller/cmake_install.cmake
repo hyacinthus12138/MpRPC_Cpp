@@ -1,4 +1,4 @@
-# Install script for directory: /home/mywork/MpRPC_Cpp/examples/rpc/caller
+# Install script for directory: /home/mywork/mywork/MpRPC_Cpp/examples/rpc/caller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

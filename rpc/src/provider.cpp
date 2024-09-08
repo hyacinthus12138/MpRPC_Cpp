@@ -2,18 +2,22 @@
 #include "zookeeperutil.h"
 
 
+
 void provider::notifyService(google::protobuf::Service *service){
     serviceInfo service_info;
 
     const google::protobuf::ServiceDescriptor * sp = service->GetDescriptor();
     std::string serviceName = sp->name();
+   
     int methodNum = sp->method_count();
+   
     std::cout << "service_name:" << serviceName << std::endl;
     std::cout << "service_method_num:" << methodNum << std::endl; 
     for(int i = 0; i < methodNum; ++i){
         const google::protobuf::MethodDescriptor *mp = sp->method(i);
         std::string methodName = mp->name();
         service_info.m_methodMap.insert({methodName, mp});
+        
         std::cout << "service:" << serviceName << " service method->" << i << " :" 
                             << methodName  << std::endl;
     }
@@ -58,7 +62,7 @@ void provider::run(){
             zkCli.Create(method_path.c_str(), method_path_data, strlen(method_path_data), ZOO_EPHEMERAL);
         }
     }
-
+    
     std::cout << "rpcProvider start loop at ip:" << ip << " port:" << port << std::endl;
     server.start();
     m_eventloop.loop();

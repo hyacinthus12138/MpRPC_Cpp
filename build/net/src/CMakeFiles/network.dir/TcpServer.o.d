@@ -1,7 +1,8 @@
 net/src/CMakeFiles/network.dir/TcpServer.o: \
- /home/mywork/MpRPC_Cpp/net/src/TcpServer.cpp /usr/include/stdc-predef.h \
- /home/mywork/MpRPC_Cpp/net/include/TcpServer.h \
- /home/mywork/MpRPC_Cpp/net/include/EventLoop.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/src/TcpServer.cpp \
+ /usr/include/stdc-predef.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/TcpServer.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/EventLoop.h \
  /usr/include/c++/11/functional \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -156,8 +157,8 @@ net/src/CMakeFiles/network.dir/TcpServer.o: \
  /usr/include/c++/11/bits/basic_string.tcc \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/mywork/MpRPC_Cpp/net/include/noncopyable.h \
- /home/mywork/MpRPC_Cpp/net/include/Timestamp.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/noncopyable.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Timestamp.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/ios_base.h \
  /usr/include/c++/11/bits/locale_classes.h \
@@ -173,8 +174,8 @@ net/src/CMakeFiles/network.dir/TcpServer.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/mywork/MpRPC_Cpp/net/include/CurrentThread.h /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/CurrentThread.h \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
@@ -185,10 +186,10 @@ net/src/CMakeFiles/network.dir/TcpServer.o: \
  /usr/include/x86_64-linux-gnu/asm/unistd.h \
  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
  /usr/include/x86_64-linux-gnu/bits/syscall.h \
- /home/mywork/MpRPC_Cpp/net/include/Acceptor.h \
- /home/mywork/MpRPC_Cpp/net/include/Socket.h \
- /home/mywork/MpRPC_Cpp/net/include/Channel.h \
- /home/mywork/MpRPC_Cpp/net/include/InetAddress.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Acceptor.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Socket.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Channel.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/InetAddress.h \
  /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/x86_64-linux-gnu/bits/socket.h \
@@ -206,10 +207,10 @@ net/src/CMakeFiles/network.dir/TcpServer.o: \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
  /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/arpa/inet.h \
- /home/mywork/MpRPC_Cpp/net/include/EventLoopThreadPoll.h \
- /home/mywork/MpRPC_Cpp/net/include/Callbacks.h \
- /home/mywork/MpRPC_Cpp/net/include/TcpConnection.h \
- /home/mywork/MpRPC_Cpp/net/include/Buffer.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/EventLoopThreadPoll.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Callbacks.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/TcpConnection.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Buffer.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
@@ -219,4 +220,5 @@ net/src/CMakeFiles/network.dir/TcpServer.o: \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/mywork/MpRPC_Cpp/net/include/Logger.h /usr/include/strings.h
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Logger.h \
+ /usr/include/strings.h

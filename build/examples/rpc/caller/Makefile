@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mywork/MpRPC_Cpp
+CMAKE_SOURCE_DIR = /home/mywork/mywork/MpRPC_Cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mywork/MpRPC_Cpp/build
+CMAKE_BINARY_DIR = /home/mywork/mywork/MpRPC_Cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mywork/MpRPC_Cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mywork/MpRPC_Cpp/build/CMakeFiles /home/mywork/MpRPC_Cpp/build/examples/rpc/caller//CMakeFiles/progress.marks
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/rpc/caller/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mywork/MpRPC_Cpp/build/CMakeFiles 0
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mywork/mywork/MpRPC_Cpp/build/CMakeFiles /home/mywork/mywork/MpRPC_Cpp/build/examples/rpc/caller//CMakeFiles/progress.marks
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/rpc/caller/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mywork/mywork/MpRPC_Cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/rpc/caller/clean
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/rpc/caller/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/rpc/caller/preinstall
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/rpc/caller/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/rpc/caller/preinstall
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/rpc/caller/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mywork/MpRPC_Cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/rpc/caller/CMakeFiles/user_caller.dir/rule:
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/rpc/caller/CMakeFiles/user_caller.dir/rule
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/rpc/caller/CMakeFiles/user_caller.dir/rule
 .PHONY : examples/rpc/caller/CMakeFiles/user_caller.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ user_caller: examples/rpc/caller/CMakeFiles/user_caller.dir/rule
 
 # fast build rule for target.
 user_caller/fast:
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/user_caller.dir/build.make examples/rpc/caller/CMakeFiles/user_caller.dir/build
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/user_caller.dir/build.make examples/rpc/caller/CMakeFiles/user_caller.dir/build
 .PHONY : user_caller/fast
 
 # Convenience name for target.
 examples/rpc/caller/CMakeFiles/friend_caller.dir/rule:
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/rpc/caller/CMakeFiles/friend_caller.dir/rule
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/rpc/caller/CMakeFiles/friend_caller.dir/rule
 .PHONY : examples/rpc/caller/CMakeFiles/friend_caller.dir/rule
 
 # Convenience name for target.
@@ -141,67 +141,67 @@ friend_caller: examples/rpc/caller/CMakeFiles/friend_caller.dir/rule
 
 # fast build rule for target.
 friend_caller/fast:
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/friend_caller.dir/build.make examples/rpc/caller/CMakeFiles/friend_caller.dir/build
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/friend_caller.dir/build.make examples/rpc/caller/CMakeFiles/friend_caller.dir/build
 .PHONY : friend_caller/fast
 
 # target to build an object file
 __/friendproto/friend.pb.o:
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/friend_caller.dir/build.make examples/rpc/caller/CMakeFiles/friend_caller.dir/__/friendproto/friend.pb.o
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/friend_caller.dir/build.make examples/rpc/caller/CMakeFiles/friend_caller.dir/__/friendproto/friend.pb.o
 .PHONY : __/friendproto/friend.pb.o
 
 # target to preprocess a source file
 __/friendproto/friend.pb.i:
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/friend_caller.dir/build.make examples/rpc/caller/CMakeFiles/friend_caller.dir/__/friendproto/friend.pb.i
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/friend_caller.dir/build.make examples/rpc/caller/CMakeFiles/friend_caller.dir/__/friendproto/friend.pb.i
 .PHONY : __/friendproto/friend.pb.i
 
 # target to generate assembly for a file
 __/friendproto/friend.pb.s:
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/friend_caller.dir/build.make examples/rpc/caller/CMakeFiles/friend_caller.dir/__/friendproto/friend.pb.s
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/friend_caller.dir/build.make examples/rpc/caller/CMakeFiles/friend_caller.dir/__/friendproto/friend.pb.s
 .PHONY : __/friendproto/friend.pb.s
 
 # target to build an object file
 __/userproto/user.pb.o:
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/user_caller.dir/build.make examples/rpc/caller/CMakeFiles/user_caller.dir/__/userproto/user.pb.o
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/user_caller.dir/build.make examples/rpc/caller/CMakeFiles/user_caller.dir/__/userproto/user.pb.o
 .PHONY : __/userproto/user.pb.o
 
 # target to preprocess a source file
 __/userproto/user.pb.i:
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/user_caller.dir/build.make examples/rpc/caller/CMakeFiles/user_caller.dir/__/userproto/user.pb.i
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/user_caller.dir/build.make examples/rpc/caller/CMakeFiles/user_caller.dir/__/userproto/user.pb.i
 .PHONY : __/userproto/user.pb.i
 
 # target to generate assembly for a file
 __/userproto/user.pb.s:
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/user_caller.dir/build.make examples/rpc/caller/CMakeFiles/user_caller.dir/__/userproto/user.pb.s
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/user_caller.dir/build.make examples/rpc/caller/CMakeFiles/user_caller.dir/__/userproto/user.pb.s
 .PHONY : __/userproto/user.pb.s
 
 # target to build an object file
 callfriendservice.o:
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/friend_caller.dir/build.make examples/rpc/caller/CMakeFiles/friend_caller.dir/callfriendservice.o
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/friend_caller.dir/build.make examples/rpc/caller/CMakeFiles/friend_caller.dir/callfriendservice.o
 .PHONY : callfriendservice.o
 
 # target to preprocess a source file
 callfriendservice.i:
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/friend_caller.dir/build.make examples/rpc/caller/CMakeFiles/friend_caller.dir/callfriendservice.i
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/friend_caller.dir/build.make examples/rpc/caller/CMakeFiles/friend_caller.dir/callfriendservice.i
 .PHONY : callfriendservice.i
 
 # target to generate assembly for a file
 callfriendservice.s:
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/friend_caller.dir/build.make examples/rpc/caller/CMakeFiles/friend_caller.dir/callfriendservice.s
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/friend_caller.dir/build.make examples/rpc/caller/CMakeFiles/friend_caller.dir/callfriendservice.s
 .PHONY : callfriendservice.s
 
 # target to build an object file
 calluserservice.o:
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/user_caller.dir/build.make examples/rpc/caller/CMakeFiles/user_caller.dir/calluserservice.o
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/user_caller.dir/build.make examples/rpc/caller/CMakeFiles/user_caller.dir/calluserservice.o
 .PHONY : calluserservice.o
 
 # target to preprocess a source file
 calluserservice.i:
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/user_caller.dir/build.make examples/rpc/caller/CMakeFiles/user_caller.dir/calluserservice.i
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/user_caller.dir/build.make examples/rpc/caller/CMakeFiles/user_caller.dir/calluserservice.i
 .PHONY : calluserservice.i
 
 # target to generate assembly for a file
 calluserservice.s:
-	cd /home/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/user_caller.dir/build.make examples/rpc/caller/CMakeFiles/user_caller.dir/calluserservice.s
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(MAKE) $(MAKESILENT) -f examples/rpc/caller/CMakeFiles/user_caller.dir/build.make examples/rpc/caller/CMakeFiles/user_caller.dir/calluserservice.s
 .PHONY : calluserservice.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mywork/MpRPC_Cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mywork/mywork/MpRPC_Cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

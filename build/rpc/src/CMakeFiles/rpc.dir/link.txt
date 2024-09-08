@@ -1,2 +1,2 @@
-/usr/bin/ar qc ../../../lib/librpc.a CMakeFiles/rpc.dir/application.o CMakeFiles/rpc.dir/head.pb.o CMakeFiles/rpc.dir/provider.o CMakeFiles/rpc.dir/rpcChannel.o CMakeFiles/rpc.dir/rpcConfig.o CMakeFiles/rpc.dir/rpccontroller.o CMakeFiles/rpc.dir/zookeeperutil.o CMakeFiles/rpc.dir/logger.o
+/usr/bin/ar qc ../../../lib/librpc.a CMakeFiles/rpc.dir/application.o CMakeFiles/rpc.dir/head.pb.o CMakeFiles/rpc.dir/provider.o CMakeFiles/rpc.dir/rpcChannel.o CMakeFiles/rpc.dir/rpcConfig.o CMakeFiles/rpc.dir/rpccontroller.o CMakeFiles/rpc.dir/zookeeperutil.o CMakeFiles/rpc.dir/rpclogger.o
 /usr/bin/ranlib ../../../lib/librpc.a

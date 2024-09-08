@@ -1,7 +1,7 @@
 rpc/src/CMakeFiles/rpc.dir/zookeeperutil.o: \
- /home/mywork/MpRPC_Cpp/rpc/src/zookeeperutil.cpp \
+ /home/mywork/mywork/MpRPC_Cpp/rpc/src/zookeeperutil.cpp \
  /usr/include/stdc-predef.h \
- /home/mywork/MpRPC_Cpp/rpc/include/zookeeperutil.h \
+ /home/mywork/mywork/MpRPC_Cpp/rpc/include/zookeeperutil.h \
  /usr/include/semaphore.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -151,8 +151,8 @@ rpc/src/CMakeFiles/rpc.dir/zookeeperutil.o: \
  /usr/include/c++/11/bits/functional_hash.h \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/mywork/MpRPC_Cpp/rpc/include/application.h \
- /home/mywork/MpRPC_Cpp/rpc/include/rpcConfig.h \
+ /home/mywork/mywork/MpRPC_Cpp/rpc/include/application.h \
+ /home/mywork/mywork/MpRPC_Cpp/rpc/include/rpcConfig.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \
  /usr/include/c++/11/bits/exception_ptr.h \

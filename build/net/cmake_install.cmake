@@ -1,4 +1,4 @@
-# Install script for directory: /home/mywork/MpRPC_Cpp/net
+# Install script for directory: /home/mywork/mywork/MpRPC_Cpp/net
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mywork/MpRPC_Cpp/build/net/src/cmake_install.cmake")
+  include("/home/mywork/mywork/MpRPC_Cpp/build/net/src/cmake_install.cmake")
 
 endif()
 

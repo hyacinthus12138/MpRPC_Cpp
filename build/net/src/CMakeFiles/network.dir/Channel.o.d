@@ -1,8 +1,9 @@
 net/src/CMakeFiles/network.dir/Channel.o: \
- /home/mywork/MpRPC_Cpp/net/src/Channel.cpp /usr/include/stdc-predef.h \
- /home/mywork/MpRPC_Cpp/net/include/Channel.h \
- /home/mywork/MpRPC_Cpp/net/include/noncopyable.h \
- /home/mywork/MpRPC_Cpp/net/include/Timestamp.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/src/Channel.cpp \
+ /usr/include/stdc-predef.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Channel.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/noncopyable.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Timestamp.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -166,7 +167,7 @@ net/src/CMakeFiles/network.dir/Channel.o: \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /home/mywork/MpRPC_Cpp/net/include/EventLoop.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/EventLoop.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/atomic \
@@ -175,8 +176,8 @@ net/src/CMakeFiles/network.dir/Channel.o: \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/mywork/MpRPC_Cpp/net/include/CurrentThread.h /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/CurrentThread.h \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
@@ -187,6 +188,6 @@ net/src/CMakeFiles/network.dir/Channel.o: \
  /usr/include/x86_64-linux-gnu/asm/unistd.h \
  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
  /usr/include/x86_64-linux-gnu/bits/syscall.h \
- /home/mywork/MpRPC_Cpp/net/include/Logger.h \
+ /home/mywork/mywork/MpRPC_Cpp/net/include/Logger.h \
  /usr/include/x86_64-linux-gnu/sys/epoll.h \
  /usr/include/x86_64-linux-gnu/bits/epoll.h
